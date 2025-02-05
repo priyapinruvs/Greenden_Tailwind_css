@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeden</title>
+    <!-- Tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+     rel="stylesheet">
+</head>
+
+<body>
+    <!-- Greeden Responsive Nav bar -->
+    <nav class="bg-green-100 p-5 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
+        <h1 class="text-3xl">GREENDEN</h1>
+        <svg class="h-6 w-6 text-gray-600 md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <ul class=" gap-5 text-gray-600 hidden md:flex">
+            <li class="hover:underline hover:text-black"> <a href="Greeden.html">Home</a></li>
+            <li class="hover:underline hover:text-black"> <a href="Product.html">Products</a></li>
+            <li class="hover:underline hover:text-black"> <a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Contact form -->
+   <div class="bg-gray-100">
+    <div class="container mx-auto py-12">
+        <div class="max-w-lg mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-gray-900 mb-4">
+                How can we help you
+            </h2>
+            <p class="text-gray-700 mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis velit
+                eget nisi lobortis dignissim.
+            </p>
+            <form class="bg-white rounded-lg px-6 py-8 shadow-md">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="name">Name</label>
+                    <input
+                        class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="name" type="text" placeholder="Enter your name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
+                    <input
+                        class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
+                    <textarea
+                        class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="message" rows="6" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="flex justify-end">
+                    <button
+                        class="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="button">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+     <!-- Footer -->
+     <section class="bg-green-100 p-5 mb-4">
+        <h1 class="text-3xl font-bold mb-3 ">Greenden</h1>
+        <p class="mb-3"> The standard chunk of lorem ipsum used since the 1500s is reprodused below for those content</p>
+        <p class="mb-3"> @ 2021 Greenden.com</p>
+      </section>
+</body>
+
+</html
