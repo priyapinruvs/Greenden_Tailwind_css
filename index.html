@@ -14,17 +14,30 @@
     <!-- Greeden Responsive Nav bar -->
     <nav class="bg-green-100 p-5 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
         <h1 class="text-3xl">GREENDEN</h1>
-        <svg class="h-6 w-6 text-gray-600 md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg id="menuicon"  class="h-6 w-6 text-gray-600 md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
         <ul class="gap-5 text-gray-600 hidden md:flex">
-            <li class="hover:underline hover:text-black"> <a href="Greeden.html">Home</a></li>
+            <li class="hover:underline hover:text-black"> <a href="index.html">Home</a></li>
             <li class="hover:underline hover:text-black"> <a href="Product.html">Products</a></li>
             <li class="hover:underline hover:text-black"> <a href="Contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- header Section -->
+    <!-- sidebar -->
+     <section id="Sidenavbar" class="bg-green-100 p-10 flex flex-col fixed z-20 top-0  items-center transition-all duration-1000" style="width:20%; height: 100vh; z-index: 20; right: -20%;">
+         <div class="text-right p-5">
+        <p id="close" class="inline cursor-pointer"> X</p>
+    </div>
+        
+        <ul class="gap-5 text-gray-600 ">
+            <li class="hover:underline hover:text-black m-5"> <a href="index.html">Home</a></li>
+            <li class="hover:underline hover:text-black m-5"> <a href="Product.html">Products</a></li>
+            <li class="hover:underline hover:text-black m-5"> <a href="Contact.html">Contact</a></li>
+        </ul>
+</section>
+
+    <!-- header Section -->            
     <section class="bg-green-100 p-5 flex justify-center gap-10 ">
         <div>
             <p class="mb-4">We Offer You a Wide Range of Artifical and Natural Flowers</p>
@@ -155,6 +168,7 @@
         <p class="mb-3"> @ 2021 Greenden.com</p>
       </section>
 
+      <script src="script.js"></script>
 </body>
 
 </html
